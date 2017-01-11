@@ -1,0 +1,23 @@
+<div class="sidebar">
+	
+	<div class="widget widget_categories">
+		<h3 class="widget-tit">文章分类</h3>		
+		<ul>
+			<volist name="types" id="vo">
+				<li class="cat-item cat-item-18 current-cat">
+					<a title="{$vo.typename} " href="__MODULE__/List/index/typeid/{$vo.id}">{$vo.typename}</a>
+				</li>
+			</volist>
+		</ul>
+	</div>		
+	<div class="widget widget_recent_entries">		
+		<h3 class="widget-tit">最新发表</h3>		
+		<ul>
+			<volist name="res" id="vo2">
+				<li>
+					<a href="__MODULE__/Article/index/id/{$vo2.id}">{$vo2.title}</a>
+				</li>
+			</volist>
+		</ul>
+	</div>
+</div>

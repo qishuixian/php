@@ -1,0 +1,40 @@
+
+<include file="Public:head" />
+<div class="wrapper">
+	<div class="content">	
+	<!-- 分享代码 --><!-- 分享代码 -->	
+	<ul class="excerpt thumb">
+	    <volist name="articles" id="vo">
+			<li>
+				<a class="pic" href="__MODULE__/Article/index/id/{$vo.id}">
+					<img alt="{$vo.title}" src="__ROOT__{$vo.pic}">
+				</a>			
+				<h2 class="excerpt-tit">
+					<a href="__MODULE__/Article/index/id/{$vo.id}">{$vo.title}</a>
+				</h2>
+				<p class="excerpt-desc">
+					{$vo.desc|substr=0,300}.....			
+				</p>
+		        <div class="excerpt-time">
+					{$vo.time|date="Y-m-h",###}			
+				</div>
+			</li>
+		</volist>		
+	</ul>
+	<div class="paging">
+		<!-- <span class="current">1</span> 
+		<a title="第 2 页" href="/category/philosophy-life/page/2">2</a> 
+		<a title="第 3 页" href="/category/philosophy-life/page/3">3</a> 
+		<a title="第 4 页" href="/category/philosophy-life/page/4">4</a> 
+		<a title="第 5 页" href="/category/philosophy-life/page/5">5</a> 
+		<span class="dots"> ... </span>
+		<a title="»" href="/category/philosophy-life/page/57">57</a> 
+		<a href="/category/philosophy-life/page/2">&gt;</a> -->
+		 {$page}
+	</div>
+
+</div>
+<include file="Public:sidebar" />
+
+</div>
+<include file="Public:foot" />
