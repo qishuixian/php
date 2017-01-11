@@ -1,0 +1,880 @@
+[ 2016-11-18T17:14:15+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/head.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:16:21+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/nav.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cares D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 142 行.
+NOTIC: [8] Undefined variable: msgres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 158 行.
+NOTIC: [8] Undefined variable: yhres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 173 行.
+NOTIC: [8] Undefined variable: byres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-18T17:16:25+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/nav.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cares D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 142 行.
+NOTIC: [8] Undefined variable: msgres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 158 行.
+NOTIC: [8] Undefined variable: yhres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 173 行.
+NOTIC: [8] Undefined variable: byres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-18T17:16:26+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/nav.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cares D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 142 行.
+NOTIC: [8] Undefined variable: msgres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 158 行.
+NOTIC: [8] Undefined variable: yhres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 173 行.
+NOTIC: [8] Undefined variable: byres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:16:26+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/nav.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cares D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 142 行.
+NOTIC: [8] Undefined variable: msgres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 158 行.
+NOTIC: [8] Undefined variable: yhres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 173 行.
+NOTIC: [8] Undefined variable: byres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:19:18+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/nav.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Mobile/View/Common/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\cartshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cares D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 142 行.
+NOTIC: [8] Undefined variable: msgres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 158 行.
+NOTIC: [8] Undefined variable: yhres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 173 行.
+NOTIC: [8] Undefined variable: byres D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:19:26+08:00 ] ::1 /cartshop/index.php/Mobile/carlist/index/cateid/93
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Carlist
+
+[ 2016-11-18T17:19:39+08:00 ] ::1 /cartshop/index.php/Mobile/page/index/cateid/89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Page
+
+[ 2016-11-18T17:37:29+08:00 ] ::1 /cartshop/index.php/Mobile/View/Page/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:View
+
+[ 2016-11-18T17:37:39+08:00 ] ::1 /cartshop/index.php/Mobile/Page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:45:01+08:00 ] ::1 /cartshop/index.php/Mobile/Page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `cs_cate` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: catename D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\b37367518b8be1122692cccd04cc9329.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:45:09+08:00 ] ::1 /cartshop/index.php/Mobile/Page/index/cateid/89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 89 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `cs_cate` WHERE `id` = 89 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:45:11+08:00 ] ::1 /cartshop/index.php/Mobile/Page/index/cateid/88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 88 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `cs_cate` WHERE `id` = 88 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-18T17:45:15+08:00 ] ::1 /cartshop/index.php/Mobile/Arlist/index/cateid/94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 94 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-18T17:45:15+08:00 ] ::1 /cartshop/index.php/Mobile/Arlist/getlist/p/1/cateid/94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0090s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 94 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM cs_article WHERE cateid=94 LIMIT 0,5 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:45:19+08:00 ] ::1 /cartshop/index.php/Mobile/Page/index/cateid/96
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 96 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `cs_cate` WHERE `id` = 96 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-18T17:45:24+08:00 ] ::1 /cartshop/index.php/Mobile/Carlist/index/cateid/93
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0060s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\cartshop\Application\Mobile\Controller\CarlistController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:45:24+08:00 ] ::1 /cartshop/index.php/Mobile/Carlist/getlist/p/1/cateid/93
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0140s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM cs_article WHERE cateid=93 LIMIT 0,2 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:45:26+08:00 ] ::1 /cartshop/index.php/Mobile/Carlist/getlist/p/2/cateid/93
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM cs_article WHERE cateid=93 LIMIT 2,2 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:45:28+08:00 ] ::1 /cartshop/index.php/Mobile/Carlist/getlist/p/3/cateid/93
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM cs_article WHERE cateid=93 LIMIT 4,2 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:45:29+08:00 ] ::1 /cartshop/index.php/Mobile/Carlist/getlist/p/4/cateid/93
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM cs_article WHERE cateid=93 LIMIT 6,2 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:45:57+08:00 ] ::1 /cartshop/index.php/Mobile/Page/index/cateid/95
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 95 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `cs_cate` WHERE `id` = 95 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:46:00+08:00 ] ::1 /cartshop/index.php/Mobile/Message/index/cateid/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:46:01+08:00 ] ::1 /cartshop/index.php/Mobile/Message/getlist/p/1/cateid/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0040s ]
+SQL: SELECT * FROM cs_message WHERE  checked=1 AND type=0 LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM cs_reply [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: msges D:\phpStudy\WWW\cartshop\Application\Mobile\Controller\MessageController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:46:03+08:00 ] ::1 /cartshop/index.php/Mobile/Message/getlist/p/2/cateid/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0040s ]
+SQL: SELECT * FROM cs_message WHERE  checked=1 AND type=0 LIMIT 1,1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM cs_reply [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: msges D:\phpStudy\WWW\cartshop\Application\Mobile\Controller\MessageController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:46:04+08:00 ] ::1 /cartshop/index.php/Mobile/Message/getlist/p/3/cateid/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0040s ]
+SQL: SELECT * FROM cs_message WHERE  checked=1 AND type=0 LIMIT 2,1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM cs_reply [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: msges D:\phpStudy\WWW\cartshop\Application\Mobile\Controller\MessageController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:46:05+08:00 ] ::1 /cartshop/index.php/Mobile/Message/getlist/p/4/cateid/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0030s ]
+SQL: SELECT * FROM cs_message WHERE  checked=1 AND type=0 LIMIT 3,1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM cs_reply [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: msges D:\phpStudy\WWW\cartshop\Application\Mobile\Controller\MessageController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-18T17:46:07+08:00 ] ::1 /cartshop/index.php/Mobile/Message/getlist/p/5/cateid/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0040s ]
+SQL: SELECT * FROM cs_message WHERE  checked=1 AND type=0 LIMIT 4,1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM cs_reply [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: msges D:\phpStudy\WWW\cartshop\Application\Mobile\Controller\MessageController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:46:09+08:00 ] ::1 /cartshop/index.php/Mobile/Message/addmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: catename D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\2d71e08998c9ed48da4056117f676171.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-18T17:46:09+08:00 ] ::1 /cartshop/index.php/Mobile/Message/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:46:16+08:00 ] ::1 /cartshop/index.php/Mobile/Search/index/?kws=222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( 1 AND title LIKE "%222%" AND cateid =93 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: catename D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\9fd765e6b59ac75d36ceaddcd41efd03.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:46:16+08:00 ] ::1 /cartshop/index.php/Mobile/Search/getlist/p/1/kws/222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM cs_article WHERE title LIKE '%222%' AND cateid=93 LIMIT 0,2 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:46:52+08:00 ] ::1 /cartshop/index.php/Mobile/Page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `cs_cate` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: catename D:\phpStudy\WWW\cartshop\Application\Runtime\Cache\Mobile\b37367518b8be1122692cccd04cc9329.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-18T17:46:54+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`rizu`,`pic` FROM `cs_article` WHERE ( cateid=93 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`des`,`pic`,`time` FROM `cs_article` WHERE ( cateid=92 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=94 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_message` WHERE ( type=0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-18T17:46:59+08:00 ] ::1 /cartshop/index.php/Mobile/page/index/cateid/89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 89 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `cs_cate` WHERE `id` = 89 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:47:03+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`rizu`,`pic` FROM `cs_article` WHERE ( cateid=93 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`des`,`pic`,`time` FROM `cs_article` WHERE ( cateid=92 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=94 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_message` WHERE ( type=0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-18T17:47:06+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`rizu`,`pic` FROM `cs_article` WHERE ( cateid=93 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`des`,`pic`,`time` FROM `cs_article` WHERE ( cateid=92 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=94 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cs_message` WHERE ( type=0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:47:08+08:00 ] ::1 /cartshop/index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`rizu`,`pic` FROM `cs_article` WHERE ( cateid=93 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`des`,`pic`,`time` FROM `cs_article` WHERE ( cateid=92 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=94 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_message` WHERE ( type=0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-11-18T17:47:10+08:00 ] ::1 /cartshop/index.php/Mobile/carlist/index/cateid/93
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\cartshop\Application\Mobile\Controller\CarlistController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:47:10+08:00 ] ::1 /cartshop/index.php/Mobile/Carlist/getlist/p/1/cateid/93
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM cs_article WHERE cateid=93 LIMIT 0,2 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T17:47:11+08:00 ] ::1 /cartshop/index.php/Mobile/Carlist/getlist/p/2/cateid/93
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `cs_cate` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( pc=0 ) ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM cs_article WHERE cateid=93 LIMIT 2,2 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

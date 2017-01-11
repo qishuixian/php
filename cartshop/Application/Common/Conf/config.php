@@ -1,0 +1,22 @@
+<?php
+return array (
+  'DB_TYPE' => 'mysql',
+  'DB_HOST' => 'localhost',
+  'DB_NAME' => 'carshop',
+  'DB_USER' => 'root',
+  'DB_PWD' => 'root',
+  'DB_PORT' => 3306,
+  'DB_PREFIX' => 'cs_',
+  'DB_CHARSET' => 'utf8',
+  'DOMAIN' => 'http://localhost/',
+  'TITLE' => 'q',
+  'KEYWORDS' => 'a',
+  'DESCRIPTION' => 's',
+  'EMAIL' => 's',
+  'CONTACT' => 's',
+  'FAX' => 's',
+  'PHONE' => 's',
+  'ICP' => 's',
+  'COPY' => '666',
+  'ADDRESS' => 's',
+); ?>
