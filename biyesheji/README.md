@@ -13,4 +13,6 @@
 
 >②进入项目目录configs,修改相关连接数据库配置；
 
->③在浏览器中打开http://127.0.0.1/beyesheji/pc即可；
+>③前台：在浏览器中打开http://127.0.0.1/beyesheji/pc即可；
+
+>④后台：在浏览器中打开http://127.0.0.1/beyesheji/admin ,账号：root，密码：root。
