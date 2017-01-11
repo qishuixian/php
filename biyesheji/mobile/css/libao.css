@@ -1,0 +1,201 @@
+/* 礼包 列表页 */
+.lb-libao-main{
+	margin-bottom:10px;
+}
+.lb-libao-box{
+	margin-top:3px;
+	padding:10px;
+	background:#fff;
+	border-top:1px solid #d2d2d2;
+	border-bottom:1px solid #d2d2d2;
+}
+.lb-libao-box .lb-libao-itm{
+	position:relative;
+	display:block;
+	height:65px;
+	padding:0 62px 0 72px;
+	overflow:hidden;
+}
+.lb-libao-box .lb-libao-itm:hover,
+.lb-libao-box .lb-libao-itm:active{
+	text-decoration:none;
+}
+.lb-libao-box .lb-libao-itm:hover .libao-hd,
+.lb-libao-box .lb-libao-itm:active .libao-hd{
+	color:#ff8d20;
+}
+.lb-libao-box .lb-libao-itm:hover .btn-receive,
+.lb-libao-box .lb-libao-itm:active .btn-receive{
+	background:#f60;
+}
+.lb-libao-itm .lb-avatar{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.lb-libao-itm .lb-avatar img{
+	width:65px;
+	height:65px;
+	border-radius:10px;
+}
+.lb-libao-itm .lb-libao-info{
+	width:100%;
+}
+.lb-libao-itm .lb-libao-info .libao-hd{
+	font-size:1.6rem;
+	color:#595757;
+	line-height:1.8em;
+}
+.lb-libao-itm .lb-libao-info .libao-ft{
+	color:#979797;
+}
+.btn.btn-receive{
+	position:absolute;
+	right:0;
+	top:18px;
+	width:55px;
+	background:#ff8d20;
+	line-height:28px;
+	font-size:1.4rem;
+	color:#fff;
+}
+/* 礼包 详情页 */
+.dt-libao-box{
+	padding:10px;
+	margin-top:3px;
+	background:#fff;
+	border-top:1px solid #d2d2d2;
+	border-bottom:1px solid #d2d2d2;
+}
+.dt-libao-box .dt-libao-itm{
+	position:relative;
+	display:block;
+	height:65px;
+	padding:0 62px 0 72px;
+	overflow:hidden;
+}
+.dt-libao-itm .lb-avatar{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.dt-libao-itm .lb-avatar img{
+	width:65px;
+	height:65px;
+	border-radius:10px;
+}
+.dt-libao-itm .dt-libao-info{
+	width:100%;
+}
+.dt-libao-itm .dt-libao-info .libao-hd{
+	font-size:1.8rem;
+	color:#595757;
+	line-height:1.8em;
+}
+.dt-libao-itm .dt-libao-info .libao-ft{
+	color:#ff8d20;
+	font-size:1.3rem;
+}
+.btn.btn-dt-receive{
+	position:absolute;
+	right:0;
+	top:18px;
+	width:55px;
+	background:#ff8d20;
+	line-height:28px;
+	font-size:1.4rem;
+	color:#fff;
+}
+.btn.btn-dt-receive:hover,
+.btn.btn-dt-receive:active{
+	background:#f60;
+}
+.package-con{
+	min-height:265px;
+	padding:12px;
+	font-size:1.3rem;
+	color:#9fa0a0;
+	line-height:1.6em;
+}
+.libao-lay {
+  display:none;
+  position: fixed;
+  top: 50%;
+  left: 4%;
+  width: 92%;
+  margin-top: -104px;
+  background: #fff;
+  color: #ff870e;
+  text-align: center;
+  z-index:20;
+}
+.libao-lay .lb-close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color:#ff8d20;
+  font-family:"iconfont" !important;
+  font-size:2.5rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.libao-lay .lb-close:hover,
+.libao-lay .lb-close:active{
+	color:#f60;
+	text-decoration:none;
+}
+.libao-lay .libao-code-box {
+  padding: 30px 0;
+  border-bottom: 1px solid #dcdcdc;
+  background: url(../images/libao-lay.jpg) no-repeat center top;
+}
+.libao-lay .libao-code-box .libao-code {
+  padding: 22px 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.2em;
+  font-style: italic;
+  word-wrap: break-word;
+}
+.libao-lay .time {
+  line-height:3.5em;
+}
+.libao-box-lay{
+	position:fixed;
+	left:0;
+  	bottom:0;
+	width:100%;
+	z-index:10;
+}
+.libao-box-lay .dt-libao-itm{
+	height:45px;
+	padding:0 62px 0 52px;
+}
+.libao-box-lay .lb-avatar img{
+	width:45px;
+	height:45px;
+}
+.libao-box-lay .dt-libao-info .libao-hd{
+	font-size:1.6rem;
+	color:#9fa0a0;
+}
+.libao-box-lay .dt-libao-info .libao-ft{
+	font-size:1.2rem;
+	color:#9fa0a0;
+}
+.btn.btn-lay-receive{
+  position: absolute;
+  right: 0;
+  top: 8px;
+  padding:0 5px;
+  background: #ff8d20;
+  line-height: 28px;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.btn.btn-lay-receive:hover,
+.btn.btn-lay-receive:active{
+	background:#f60;
+}

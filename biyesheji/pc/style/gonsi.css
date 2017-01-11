@@ -1,0 +1,114 @@
+@charset "utf-8";
+/*----------------------公司简介 人才招聘 互动专区------------------------------*/
+.gonsi_3{
+	display:block;
+	position:relative;
+	width:1010px;
+	margin-top:20px;}
+.gonsi_3 .gonsi_3_left {
+	min-height: 400px;
+	float: left;
+	height: auto;
+	width: 165px;}
+.gonsi_3 .gonsi_3_left p{
+	width:165px;
+	border-bottom: 2px solid #da2500;}
+.gonsi_3 .gonsi_3_left ul {
+	height: auto;
+	width: 165px;}
+.gonsi_3 .gonsi_3_left ul li  {
+	height: 32px;
+	width: 165px;
+	border-bottom:1px solid #d3d1cb;}
+.gonsi_3 .gonsi_3_left a{
+	display:block;
+	position:relative;
+	height:32px;
+	width:155px;
+	line-height:32px;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+	overflow:hidden;}
+.gonsi_3 .gonsi_3_left ul li a img{
+	margin-right:12px;}
+.gs_li1{
+	border-top:2px solid #da2500;
+}
+.gonsi_3 .gonsi_3_left ul li a:hover{
+background-color:#da2500;
+	color:#FFF;}
+.gs_li1 a,.gs_li2 a{
+	background-color:#da2500;
+	color:#FFF;}
+.gonsi_3_right {
+	float: right;
+	width: 825px;
+	margin-left: 20px;
+	margin-bottom:20px;}
+
+.gonsi_3 .gonsi_3_right .gonsi3_right {
+	width:820px;
+	height:auto;
+	border-bottom:2px solid #b1abab;
+}
+.gonsi3_right1{
+	color:#da2500;
+	 font-weight:bold;
+	 margin-left:10px;}
+.gonsi3_right .gonsi3_right2 {
+	display: block;
+	float: right;
+}
+.gonsi3_right .gonsi3_right2 a:hover{
+	color: #f30;
+	text-decoration: none;
+}
+.gonsi_3 .gonsi_3_right .gonsi3_right3{
+	margin-left: 10px;
+	margin-top:20px;
+}
+.gonsi_3 .gonsi_3_right .gonsi3_right3 a{
+	color: #0E12C3;
+}
+.gonsi_3 .gonsi_3_right .gonsi3_right3 a:hover{
+	color: #f30;
+	text-decoration: underline;
+}
+.gonsi_3 .gonsi_3_right ol{
+	margin-left: 12px;
+}
+.gonsi_3 .gonsi_3_right .gonsi3_right3 form p {
+	margin-bottom: 14px;
+}
+.gonsi-list{
+	width: 90%;
+	line-height: 30px;
+	list-style-type: decimal;
+}
+.gonsi_3 .gonsi_3_right .gonsi3_right3 .gonsi-list a {
+	color: #000;
+}
+.gonsi_3 .gonsi_3_right .gonsi3_right3 .gonsi-list a:hover{
+	color: #f30;
+	text-decoration: none;
+}
+.gonsi_3 .gonsi_3_right .gonsi3_right3  .deatils-title{
+    border-bottom: 1px dotted #d3d1cb;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.gonsi-list-a{
+	display: inline-block;
+	text-align: left;
+	width: 600px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	vertical-align: -11px;
+}
+.gonsi-list-time{
+	display: inline-block;
+	margin-left: 30px;
+}

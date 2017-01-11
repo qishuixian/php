@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.me_3 {
+	display:block;
+	position:absolute;
+	margin-top: 20px;
+	height: auto;
+	width: 1010px;
+	border-bottom:2px solid #b1abab;
+}
+.me_3 .me3_1 {
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+.me_3 .me3_2 {
+	display: block;
+	float: right;
+}
+/* 百度地图 */
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}

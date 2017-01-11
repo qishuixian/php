@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+.shangpin_3{
+	display:block;
+	position:relative;
+	width:1010px;
+	height:340px;;
+	margin-top:20px;}
+.shangpin_3 .shangpin_3_left {
+	float: left;
+	height: auto;
+	width: 165px;}
+/*商品展示右边*/
+ .shangpin_right {
+	height:auto;
+	float: right;
+	width: 825px;
+	margin-left: 20px;
+}
+.shangpin3_right{
+	display:block;
+	position:absolute;
+	width:825px;
+	height:auto;
+	border-bottom:2px solid #b1abab;}
+ .shangpin_right .shangpin3_right .shangpin3_right1 {
+	color:#da2500;
+	display: block;
+	float: left;
+	margin-left: 10px;}
+ .shangpin_right .shangpin3_right2 {
+	float: right;}
+.shangpin3_right3{
+	margin-top:40px;
+	margin-bottom:20px;
+	margin-left:10px;}
+
+.shangpin_right .shangpin3_right3 ul li {
+	display:block;
+	height:182px;
+	width:184px;
+	text-align:center;
+	float:left;
+	margin-bottom:18px;
+	margin-right: 17px;
+	background-color:#f4f4f4;
+	border:#bfbfbf 1px solid;}
+.shangpin_right .shangpin3_right3 ul li a:hover{
+	color: #f30;
+	text-decoration: none;
+}
+ .shangpin_right .shangpin3_right3 ul .left{
+	margin-left:18px;}
+.shangpin_right .shangpin3_right3 .shangpin_right4 {
+	float: right;
+	margin-right: 20px;
+	margin-bottom:20px;}
+.shangpin_right .shangpin3_right3 .shangpin_right4 .pages a{
+	color: #0E12C3;
+}
+.shangpin_right .shangpin3_right3 .shangpin_right4 .pages a:hover{
+	color: #f30;
+	text-decoration: underline;
+}
+.shangpin3_right3 .shangpin_right4 span input {
+	height: 24px;
+	width: 64px;
+	margin-right:15px;
+	background-color:#f4f4f4;
+	border:#bfbfbf 1px solid;}
+.shangpin3_right3 .shangpin-name{
+    border-bottom: 1px dotted #d3d1cb;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+/*.shangpin_right .shangpin_right6 .left {
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.shangpin_right .shangpin_right6 .right {
+	display:block;
+	clear:both;
+	float:right;
+	width: 400px;
+	height: auto;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	background-color:#903;
+	display: block;
+	clear: both;
+	position: relative;
+}
+.shangpin_right .shangpin_right6 p span {
+	display: block;
+	margin-bottom: 10px;
+}
+ .shangpin_right .shangpin_right6 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+}*/
+
+ .shangpin_right3 {
+	display: none;
+}
+
+.shangpin_3 .shangpin_3_left .zxa {
+	width:165px;
+	border-bottom: 2px solid #da2500;}
+.shangpin_3 .shangpin_3_left .shangpin3 .asdf {
+	height: 32px;
+	width: 165px;
+	/*padding-top:14px;
+	padding-left:10px;*/
+	border-bottom:1px solid #d3d1cb;}
+.shangpin_3 .shangpin_3_left .shangpin3 .asdf a {
+	display:block;
+	position:relative;
+	height:32px;
+	width:155px;
+	line-height:32px;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+	overflow:hidden;
+}
+ .shangpin_3 .shangpin_3_left .shangpin3  a:hover{  
+   background-color:#da2500;
+	color:#FFF;}
+.shangpin_3 .shangpin_3_left .shangpin3 a img {
+	margin-right:12px;}
+.shangpin_3 .shangpin_3_left .shangpin3 ul {
+	height: auto;
+	width: 165px;
+}
+.shangpin_3 .shangpin_3_left .shangpin3  ul li a{
+	margin-left:14px;
+  display:block;
+	position:relative;
+	height:32px;
+	width:141px;
+	line-height:32px;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+	overflow:hidden;
+	background-color:#f4f4f4;}
+.f{
+	background-color: background-color:#da2500;}
+.shangpin_3 .shangpin_3_left .shangpin3 .f a {
+	background-color: #da2500;
+}
+.shangpin_3 .shangpin_right .right {
+	margin-bottom: 20px;
+}
+.shangpin-b{
+	margin-right: 5px;
+}
+.shangpin-a{
+	margin-left: 5px;
+    display: inline-block;
+    margin-left: 5px;
+    max-width: 68px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

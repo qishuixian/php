@@ -1,0 +1,335 @@
+.error .error-icon,
+.user-share span{
+	display:inline-block;
+	background:url(../images/mobile-icon.png) no-repeat;
+	vertical-align:middle;
+}
+/* 登录前&后 */
+.user-head{
+	height:48px;
+	background:#fff;
+	line-height:48px;
+}
+.user-head .head-arrow-l{
+	position: absolute;
+	left:0;
+	top:0;
+	width:40px;
+	text-align:center;
+}
+.user-head .head-title{
+	color:#424242;
+	font-size:1.6rem;
+	text-align:center;
+}
+.head-arrow-l .icon-arrow{
+    font-family:"iconfont" !important;
+    font-size:2rem;
+    font-style:normal;
+    color:#ff860f;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.user-head .head-arrow-l:hover,
+.user-head .head-arrow-l:active{
+	text-decoration:none;
+}
+.user-head .head-arrow-l:hover .icon-arrow,
+.user-head .head-arrow-l:active .icon-arrow{
+	color:#DB720A;
+}
+.pre-logmain{
+	padding:46px 8% 0;
+}
+.pre-logmain .ipt-li{
+	position:relative;
+	height:48px;
+	margin-bottom:1px;
+	background:#fff;
+	line-height:48px;
+}
+.pre-logmain .ipt-li input{
+	float:left;
+	height:48px;
+	border:0;
+	font-size:1.6rem;
+	color:#454545;
+	outline:none;
+}
+.pre-logmain .ipt-li input.text-account{
+	width:72%;
+}
+.pre-logmain .ipt-li input.text-pasw{
+	width:61%;
+}
+.pre-logmain .ipt-li .icon-account{
+	float:left;
+	width:15%;
+	color:#7d7d7d;
+	text-align:center;
+    font-family:"iconfont" !important;
+    font-size:3.8rem;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.pre-logmain .ipt-li .icon-down{
+	float:left;
+	width:13%;
+	color:#bcbcbc;
+    font-family:"iconfont" !important;
+    font-size:2.2rem;
+    text-align:center;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.pre-logmain .ipt-li .icon-down:hover,
+.pre-logmain .ipt-li .icon-down:active{
+	color:#ff860f;
+	text-decoration:none;
+}
+.pre-logmain .ipt-li .icon-pasw{
+	float:left;
+	width:15%;
+	color:#7d7d7d;
+	text-align:center;
+    font-family:"iconfont" !important;
+    font-size:2.4rem;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.pre-logmain .ipt-li .forgot{
+	float:left;
+	width:24%;
+	text-align:center;
+	color:#ff860f;
+}
+.btn.log-btn,
+.btn.regist-btn{
+	display:block;
+	width:100%;
+	margin-bottom:6px;
+	font-size:1.6rem;
+	color:#fff;
+	line-height:44px;
+}
+.btn.log-btn{
+	margin-top:12px;
+	background:#ff860f;
+}
+.btn.regist-btn{
+	background:#cfcfcf;
+}
+.btn.log-btn:hover,
+.btn.log-btn:active{
+	background:#ED7906;
+}
+
+.btn.regist-btn:hover,
+.btn.regist-btn:active{
+	background:#C5C5C5;
+}
+.log-qq{
+	display:block;
+	margin-top:20px;
+	text-align:center;
+}
+.log-qq .icon-qq{
+    font-family:"iconfont" !important;
+    font-size:8.4rem;
+    font-style:normal;
+    color:#4dafea;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.log-qq a:hover,
+.log-qq a:active{
+	text-decoration:none;
+}
+.log-qq a:hover .qq-text,
+.log-qq a:active .qq-text{
+	color:#ff860f;
+}
+.log-qq .qq-text{
+	display:block;
+	font-size:1.6rem;
+	color:#151515;
+}
+.bgff9{
+	background:#ff962f;
+}
+.user-info{
+	padding:30px 27% 0;
+	text-align:center;
+}
+.user-info a:hover,
+.user-info a:active{
+	text-decoration:none;
+}
+.user-info a:hover .user-name,
+.user-info a:active .user-name{
+	color:#e44e4e;
+}
+.user-info img{
+	width:105px;
+	height:105px;
+	border-radius:50%;
+}
+.user-info .user-name{
+	text-align:center;
+	font-size:1.6rem;
+	color:#fff;
+	line-height:2.6em;
+}
+.btn.exit-btn{
+	display:block;
+	width:100%;
+	background:#e44e4e;
+	font-size:1.6rem;
+	color:#fff;
+	line-height:44px;
+}
+.btn.exit-btn:hover,
+.btn.exit-btn:active{
+	background:#DB4343;
+}
+.user-share{
+	padding:140px 16% 0;
+}
+.user-share a{
+	text-align:center;
+}
+.user-share a:hover,
+.user-share a:active{
+	text-decoration:none;
+}
+.user-share .share-text{
+	margin-top:5px;
+	color:#fff;
+}
+.user-share a:hover .share-text,
+.user-share a:active .share-text{
+	color:#e44e4e;
+}
+.user-share span{
+	width:52px;
+	height:52px;
+}
+.user-share .icon-blog{
+    background-position:0 -85px;
+}
+.user-share .icon-wx{
+    background-position:-55px -85px;
+}
+.user-share .icon-fr{
+    background-position:-110px -85px;
+}
+.errorMessage{
+	height:30px;
+	padding-left:20px;
+	background:url(../images/error.png) no-repeat left center;
+	line-height:30px;
+	color:#ff0000;
+}
+/* 注册 */
+.regist-main .ipt-li{
+	height:42px;
+	line-height:42px;
+}
+.regist-main .ipt-li input{
+	height:42px;
+}
+.regist-main .ipt-li input.text-account,
+.regist-main .ipt-li input.text-pasw,
+.regist-main .ipt-li input.text-email{
+	width:85%;
+	padding-right:15px;
+}
+.regist-main .ipt-li .icon-email{
+	float:left;
+	width:15%;
+	color:#7d7d7d;
+	text-align:center;
+    font-family:"iconfont" !important;
+    font-size:2.3rem;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.regist-main .ipt-li input.text-code{
+	width:70%;
+	padding-left:15px;
+}
+.regist-main .ipt-li .icon-code{
+	float:left;
+	width:30%;
+	text-align:center;
+}
+.regist-deal{
+	padding:12px 35px;
+	font-size:1.3rem;
+	color:#5d5d5d;
+}
+.regist-deal a{
+	color:#ff860f;
+}
+.regist-main .regist-btn{
+	background:#ff860f;
+}
+.regist-main .regist-btn:hover,
+.regist-main .regist-btn:active{
+	background:#ED7906;
+}
+.regist-main .log-qq{
+	margin-top:-10px;
+	margin-bottom:20px;
+}
+.log-qq .qq-text{
+	margin-top:-10px;
+}
+.register_agreement{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	padding:30px 0 20px;
+	background:#fff;
+	color:#555;
+}
+.register_agreement .deal-con{
+	height:100%;
+	padding:0 10px;
+	line-height:1.7em;
+	overflow-y:scroll;
+}
+.deal-close{
+	position:absolute;
+	right:0;
+	top:0;
+	width:40px;
+	height:30px;
+	line-height:30px;
+	color:#999;
+	text-align:center;
+    font-family:"iconfont" !important;
+    font-size:2rem;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+.deal-close:hover,
+.deal-close:active{
+	text-decoration:none;
+}

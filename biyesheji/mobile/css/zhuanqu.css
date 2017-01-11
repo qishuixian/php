@@ -1,0 +1,67 @@
+.bg-ddf{
+	background:#91addf;
+}
+/* 专区导航 */
+.fl{ float:left;}
+.wiki_nav{ position:relative; width:100%; height:40px; background:#000; overflow-x:hidden; line-height:40px; z-index:2;}
+.swiper-container{ position:relative;}
+.swiper-wrapper{}
+.wiki_nav .swiper-wrapper{ position:relative; width:100%; float:none; display:block;}
+.wiki_nav .swiper-slide{ 
+  position: relative;
+  float: left;
+  display: inline;
+}
+.wiki_nav .swiper-slide a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  font-size:1.4rem;
+}
+.wiki_nav .swiper-slide .n_high_color {
+  color: #ff8d20;
+}
+.wiki_nav .swiper-slide a:hover{ color:#ff8d20;}
+.shade_1{ position:absolute; top:0; left:0; width:60px; height:40px; z-index:100;1background:url(../images/shade.png) no-repeat;}
+.shade_2{ position:absolute; top:0; right:0; width:60px; height:40px; z-index:100;1background:url(../images/shade_2.png) no-repeat}
+/* 专区二级导航 */
+.wiki_nav-s{ 
+  background:#fff;
+  border-bottom:1px solid #ccc;
+  height:35px;
+  line-height:35px;
+}
+.wiki_nav-s .swiper-slide a {
+  color: #000;
+}
+.wiki-main{
+	padding:8px 6px 0;
+}
+.wiki-main .mod-box{
+	margin-bottom:8px;
+	border:1px solid #c4c4c4;
+	border-top:0;
+	border-bottom:0;
+}
+.wiki-main .mod-box .mod-hd{
+	padding:10px 8px 0px;
+}
+/* post列表 */
+.post-list .post-li{
+	padding:0 8px;
+	border-bottom:1px solid #c4c4c4;
+	line-height:30px;
+}
+.post-list .post-li .post-type{
+	padding-right:5px;
+	border-right:1px solid #c4c4c4;
+	color:#ff8d20;
+}
+.post-list .post-li a{
+	color:#2c2c2c;
+}
+.post-list .post-li a:hover,
+.post-list .post-li a:active{
+	color:#ff8d20;
+	text-decoration:none;
+}
