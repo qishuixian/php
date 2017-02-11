@@ -7,6 +7,6 @@
 >框架：YII2.0
 >PHP：PHP5.4.0 
 >数据库：Mysql5.6 
->开发工具：Sublime/PhpStorm
+>开发工具：Sublime
 
 ####课程地址:http://coding.imooc.com/learn/list/57.html
